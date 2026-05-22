@@ -1,0 +1,40 @@
+html {
+    font-family: monospace;
+    background-color: pink;
+}
+
+body {
+    background: pink;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.nav {
+    border: 1px solid blue;
+    display: flex; 
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav li {
+    text-decoration: none;
+    list-style: none;
+}
+
+main p {
+    font-size: 20px;
+}
+
+/* Live reload test: added by assistant */
+main {
+    outline: 4px dashed lime;
+}
